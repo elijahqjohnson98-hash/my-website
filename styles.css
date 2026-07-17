@@ -32,6 +32,7 @@ li {
   text-decoration: none;
   text-align: center;
   list-style-type: none;
+  font-style: oblique;
 }
 
 
@@ -49,7 +50,7 @@ li {
 }
 
 div p {
-  color: rgb(58, 240, 7);
+  color: rgb(7, 46, 240);
   font-weight: bold;
 }
 
