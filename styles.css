@@ -7,12 +7,6 @@ h1 {
   text-align: center;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: rgb(7, 7, 213);
-  text-align: center;
-}
 
 ul {
   color: rgb(7, 7, 223);
@@ -40,12 +34,6 @@ li {
   list-style-type: none;
 }
 
-#footer_ID {
-  color: rgb(4, 32, 116);
-  text-decoration: none;
-  text-align: bottom;
-  font-style: oblique;
-}
 
 .first_text {
   color: rgb(0, 0, 6);
@@ -61,18 +49,10 @@ li {
 }
 
 div p {
-  color: rgb(0, 12, 16);
+  color: rgb(58, 240, 7);
   font-weight: bold;
 }
 
-a[href^="https://"] {
-  color: rgb(14, 1, 1);
-}
-
-input[type="checkbox"] {
-  margin: 10px;
-}
-
-a[href^="https"] {
-  color: rgb(3, 51, 133);
+.box:has(.delete-btn) {
+  background-color: lightcoral;
 }
