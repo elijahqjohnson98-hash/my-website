@@ -68,3 +68,11 @@ div p {
 a[href^="https://"] {
   color: rgb(14, 1, 1);
 }
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+a[href^="https"] {
+  color: rgb(3, 51, 133);
+}
