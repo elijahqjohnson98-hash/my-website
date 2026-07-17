@@ -57,3 +57,7 @@ div p {
 .box:has(.delete-btn) {
   background-color: lightcoral;
 }
+
+h2:has(+ p) {
+  margin-bottom: 24px;
+}
