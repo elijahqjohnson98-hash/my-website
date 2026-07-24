@@ -30,9 +30,9 @@ a {
 li {
   color: rgb(1, 15, 24);
   text-decoration: none;
-  text-align: center;
   list-style-type: none;
   font-style: oblique;
+  text-align: center;
 }
 
 
@@ -52,6 +52,8 @@ li {
 div p {
   color: rgb(7, 46, 240);
   font-weight: bold;
+  float: bottom;
+  text-align: center;
 }
 
 .box:has(.delete-btn) {
@@ -61,3 +63,50 @@ div p {
 h2:has(+ p) {
   margin-bottom: 24px;
 }
+
+a:hover {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+#costume {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+  font-style:italic;
+  background-color: rgb(252, 252, 252);
+  width: 20%;
+  margin-left: 39%
+}
+
+#facts {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+  font-style:italic;
+  background-color: rgb(249, 124, 0);
+  width: 20%;
+  margin-left: 39%
+}
+
+#decorations {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+  font-style:italic;
+  background-color: rgb(252, 240, 6);
+  width: 20%;
+  margin-left: 39%
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid rgb(236, 8, 27);
+}
+

@@ -1,0 +1,50 @@
+body { 
+    background-color: rgb(253, 212, 4);
+
+}
+
+#folklore   {
+    color: rgb(151, 225, 4);
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+    font-style:italic;
+    background-color: rgb(220, 131, 7);
+    width: 450px;
+    float: left;
+    margin-left: 0%
+    
+}
+
+#trick-or-treating {
+    color: rgb(5, 244, 253);
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+    font-style:italic;
+    background-color: rgb(182, 74, 6);
+    width: 450px;
+    float: right;
+    margin-left: 39%
+}
+
+#costumes {
+    color: rgb(247, 242, 242);
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+    font-style:italic;
+    background-color: rgb(130, 4, 4);
+    width: 450px;
+    float: left;
+    margin-left: 35%
+}
+
+.first_text {
+    color: rgb(244, 244, 249);
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+    font-style:italic;
+}
+
