@@ -111,17 +111,19 @@ img {
 }
 
 nav ul {
+  background-color: rgb(247, 245, 245);
+  text-decoration: none;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
   display: flex; 
   gap: 20px;
-  width: 400px;     
+  width: 500px;     
 }
 
 nav a {
   text-decoration: none; 
-  color: #333333;        
+  color: #0a0a0a;        
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -138,4 +140,11 @@ nav a:hover {
 nav a[aria-current="page"] {
   color: #0066cc;
   border-bottom: 2px solid #0066cc; 
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
 }

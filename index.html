@@ -1,61 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Halloween Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Halloween Website</title>
 </head>
 <!-- This is the main page of the website. It contains a brief introduction to the website and links to the other pages. -->
-<nav aria-label="Main Navigation">
+<nav id="navbar" aria-label="Main Navigation">
   <ul>
     <!-- This is a list of links to the other pages on the website. -->
     <li><a href="index.html" aria-current="page">Home</a></li>
     <li><a href="subpage1.html">Costumes</a></li>
     <li><a href="subpage2.html">Folklore</a></li>
-    <li><a href="subpage3.html">Decorations</a></li>
+    <li><a href="subpage3.html">DIY Decorations</a></li>
   </ul>
 </nav>
 
 <body>
-    <main>
-        <!-- This is the main content of the page. It contains a brief introduction to the website and links to the other pages. -->
-        <h1 class="first_text">This is going to be a halloween themed website!</h1>
-        <h2 class="first_text">On this website you'll find all sorts of spooky content, Such as:</h2>
-        <p class="first_text">Halloween costume ideas, Facts about Halloween, and DIY halloween decorations.</p>
-        <h3 class="first_text">You'll find links to this websites other pages in the candy corn colored boxes below!</h3>
-        <a target="_blank" id="costume-idea" href="https://www.reddit.com/r/HalloweenCostume/">Link that opens to another page! </a>
-        <a target="_blank" id="homepage" href="subpage3.html">Link that opens to placeholder on this page! </a>
-    </main>
-    
-    <ul>
-        <!-- This is a list of links to the other pages on the website. -->
-        <li id="costume"><a href="subpage1.html">Halloween costumes</a></li>
-        <li id="facts"><a href="subpage2.html">Facts about Halloween</a></li>
-        <li id="decorations"><a href="subpage3.html"> DIY halloween decorations</a></li>
-    </ul>
-    <!-- This is the footer of the page. It contains a copyright notice. -->
-    <footer>
-        <div>
-        <p>&copy; 2026 My First Website. All rights reserved.</p>
-        </div>
-    </footer>
-    <!-- This is a style block that contains CSS rules for the page, added to make images scalable -->
-    <style>
-  .scalable-img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Removes unwanted bottom whitespace */
-  }
-</style>
+  <main>
+    <!-- This is the main content of the page. It contains a brief introduction to the website and links to the other pages. -->
+    <h1 class="first_text">This is going to be a halloween themed website!</h1>
+    <h2 class="first_text">On this website you'll find all sorts of spooky content, Such as:</h2>
+    <p class="first_text">Halloween costume ideas, Facts about Halloween, and DIY halloween decorations.</p>
+    <h3 class="first_text">You'll find links to this websites other pages in the candy corn colored boxes below!</h3>
+    <a target="_blank" id="costume-idea" href="https://www.reddit.com/r/HalloweenCostume/">Link that opens to another
+      page! </a>
+    <a target="_blank" id="homepage" href="subpage3.html">Link that opens to placeholder on this page! </a>
+  </main>
 
-<img src="Pumpkin.gif" alt="A scalable image" class="scalable-img">
+  <ul>
+    <!-- This is a list of links to the other pages on the website. -->
+    <li id="costume"><a href="subpage1.html">Halloween costumes</a></li>
+    <li id="facts"><a href="subpage2.html">Facts about Halloween</a></li>
+    <li id="decorations"><a href="subpage3.html"> DIY halloween decorations</a></li>
+  </ul>
+  <!-- This is the footer of the page. It contains a copyright notice. -->
+  <footer>
+    <div>
+      <p>&copy; 2026 My First Website. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- This is a style block that contains CSS rules for the page, added to make images scalable -->
+  <style>
+    .scalable-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      /* Removes unwanted bottom whitespace */
+    }
+  </style>
+
+  <img src="Pumpkin.gif" alt="A scalable image" class="scalable-img">
+  <div class="box">
+    <h2>Halloween Button</h2>
+    <button class="delete-btn">Do you love halloween?</button>
+  </div>
 </body>
 
-
-
-<div class="box">
-  <h2>Halloween Button</h2>
-  <button class="delete-btn">Do you love halloween?</button>
-</div>
-
+</html>

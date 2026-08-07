@@ -1,80 +1,157 @@
-body { 
-    background-color: rgb(253, 212, 4);
+body {
+  background-color: rgb(253, 212, 4);
 
 }
 
-#folklore   {
-    color: rgb(151, 225, 4);
-    text-decoration: none;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-    font-style:italic;
-    background-color: rgb(220, 131, 7);
-    width: 450px;
-    float: left;
-    margin-left: 0%
-    
+div {
+  color: rgb(240, 240, 245);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-items: start;
+}
+
+main {
+  height: 250px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 130px 130px / 150px 150px 150px;
+  grid-gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  justify-items: start;
+
+}
+
+#folklore {
+  color: rgb(240, 240, 243);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  font-size: 100%;
+  background-color: rgb(112, 2, 2);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #trick-or-treating {
-    color: rgb(5, 244, 253);
-    text-decoration: none;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-    font-style:italic;
-    background-color: rgb(182, 74, 6);
-    width: 450px;
-    float: right;
-    margin-left: 39%
+  color: rgb(245, 246, 246);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  background-color: rgb(182, 74, 6);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 #costumes {
-    color: rgb(247, 242, 242);
-    text-decoration: none;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-    font-style:italic;
-    background-color: rgb(130, 4, 4);
-    width: 450px;
-    float: left;
-    margin-left: 35%
+  color: rgb(247, 242, 242);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  background-color: rgb(155, 153, 2);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .first_text {
-    color: rgb(244, 244, 249);
-    text-decoration: none;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-    font-style:italic;
+  color: rgb(230, 230, 235);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  background-color: rgb(233, 123, 5);
+  justify-items: start;
 }
 
 nav ul {
+  background-color: rgb(247, 245, 245);
   list-style-type: none;
   margin-left: 500px;
+  margin-right: 550px;
   padding: 0;
-  display: flex; 
-  gap: 20px;     
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-items: start;
 }
 
 nav a {
-  text-decoration: none; 
-  color: #333333;        
+  text-decoration: none;
+  color: #333333;
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 500;
-  padding: 8px 12px;     
-  transition: all 0.3s ease; 
+  padding: 8px 12px;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  color: #0066cc;          
-  background-color: #f0f7ff; 
-  border-radius: 4px;        
+  color: #0066cc;
+  background-color: #f0f7ff;
+  border-radius: 4px;
 }
 
 nav a[aria-current="page"] {
   color: #0066cc;
-  border-bottom: 2px solid #0066cc; 
+  border-bottom: 2px solid #0066cc;
 }
 
+@media (max-width: 768px) {
 
+  #folklore,
+  #trick-or-treating,
+  #costumes {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    background-color: rgb(247, 245, 245);
+    width: 100%;
+    gap: 10px;
+    float: none;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-items: start;
+  }
+}
+
+div#sections {
+  color: rgb(14, 14, 15);
+  text-decoration: none;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  margin-top: 20px;
+}
