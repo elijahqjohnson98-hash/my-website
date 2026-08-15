@@ -1,15 +1,16 @@
 body {
   background-color: orange;
+  font-family: Creepster;
 } 
 
 h1 {
-  color: rgb(5, 5, 219);
+  color: rgb(3, 3, 5);
   text-align: center;
 }
 
 
 ul {
-  color: rgb(7, 7, 223);
+  color: rgb(8, 8, 12);
   text-decoration: none;
   text-align: center;
 }
@@ -22,7 +23,7 @@ img {
 }
 
 a {
-  color: blue;
+  color: rgb(10, 10, 12);
   text-decoration: none;
   text-align: center;
 }
@@ -33,6 +34,7 @@ li {
   list-style-type: none;
   font-style: oblique;
   text-align: center;
+
 }
 
 
@@ -41,7 +43,6 @@ li {
   text-decoration: none;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-  font-style:italic;
 }
 
 * {
@@ -50,7 +51,7 @@ li {
 }
 
 div p {
-  color: rgb(7, 46, 240);
+  color: rgb(20, 20, 21);
   font-weight: bold;
   float: bottom;
   text-align: center;
@@ -111,14 +112,14 @@ img {
 }
 
 nav ul {
-  background-color: rgb(247, 245, 245);
+  background-color: orangered;
   text-decoration: none;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
   display: flex; 
   gap: 20px;
-  width: 500px;     
+  width: 450px;     
 }
 
 nav a {
@@ -132,7 +133,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #0066cc;          
+  color: #d80a0a;          
   background-color: #f0f7ff; 
   border-radius: 4px;        
 }
@@ -147,4 +148,10 @@ nav a[aria-current="page"] {
     flex-direction: column;
     width: 100%;
   }
+}
+
+.creepster-regular {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }

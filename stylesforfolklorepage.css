@@ -1,7 +1,10 @@
 body {
+  font-family: Creepster;
   background-color: rgb(253, 212, 4);
+  
 
 }
+
 
 div {
   color: rgb(240, 240, 245);
@@ -15,6 +18,8 @@ div {
   height: 100%;
   width: 100%;
   justify-items: start;
+  font-family: Creepster;
+
 }
 
 main {
@@ -32,13 +37,13 @@ main {
 }
 
 #folklore {
-  color: rgb(240, 240, 243);
+  color: rgb(8, 8, 11);
   text-decoration: none;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: oblique;
+  font-family: Creepster;
+  font-style: normal;
   font-size: 100%;
-  background-color: rgb(112, 2, 2);
+  background-color: rgb(244, 240, 240);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -46,12 +51,12 @@ main {
 }
 
 #trick-or-treating {
-  color: rgb(245, 246, 246);
+  color: rgb(9, 9, 9);
   text-decoration: none;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
-  background-color: rgb(182, 74, 6);
+  font-family: Creepster;
+  font-style: normal;
+  background-color: orange;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -60,12 +65,12 @@ main {
 }
 
 #costumes {
-  color: rgb(247, 242, 242);
+  color: rgb(9, 7, 7);
   text-decoration: none;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
-  background-color: rgb(155, 153, 2);
+  font-family: Creepster;
+  font-style: normal;
+  background-color: yellow;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -73,25 +78,25 @@ main {
 }
 
 .first_text {
-  color: rgb(230, 230, 235);
+  color: rgb(7, 7, 7);
   text-decoration: none;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Creepster;
   font-style: italic;
   background-color: rgb(233, 123, 5);
   justify-items: start;
+  width: 1000px;
 }
 
 nav ul {
-  background-color: rgb(247, 245, 245);
+  background-color: rgb(240, 108, 8);
+  text-decoration: none;
   list-style-type: none;
-  margin-left: 500px;
-  margin-right: 550px;
+  margin: 0 auto;
   padding: 0;
-  display: flex;
-  flex-direction: row;
+  display: flex; 
   gap: 20px;
-  justify-items: start;
+  width: 450px;     
 }
 
 nav a {
@@ -105,7 +110,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #0066cc;
+  color: #f62222;
   background-color: #f0f7ff;
   border-radius: 4px;
 }
@@ -126,6 +131,7 @@ nav a[aria-current="page"] {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: creepster;
   }
 }
 
@@ -146,7 +152,7 @@ div#sections {
   color: rgb(14, 14, 15);
   text-decoration: none;
   text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Creepster;
   font-style: italic;
   justify-content: center;
   display: flex;
