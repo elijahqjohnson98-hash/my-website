@@ -19,6 +19,7 @@ div {
   width: 100%;
   justify-items: start;
   font-family: Creepster;
+  
 
 }
 
@@ -48,6 +49,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 5px solid rgb(236, 8, 27);
 }
 
 #trick-or-treating {
@@ -61,6 +63,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 5px solid rgb(236, 8, 27);
 
 }
 
@@ -75,6 +78,21 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 5px solid rgb(236, 8, 27);
+
+}
+#culture {
+color: red;
+  text-decoration: none;
+  text-align: center;
+  font-family: Creepster;
+  font-style: normal;
+  background-color: rgb(12, 12, 8);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid rgb(236, 8, 27);
 }
 
 .first_text {
@@ -86,6 +104,7 @@ main {
   background-color: rgb(233, 123, 5);
   justify-items: start;
   width: 1000px;
+  border: 5px solid black;
 }
 
 nav ul {
@@ -102,8 +121,8 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #333333;
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: Creepster;
+  font-size: 19px;
   font-weight: 500;
   padding: 8px 12px;
   transition: all 0.3s ease;
@@ -137,7 +156,7 @@ nav a[aria-current="page"] {
 
 @media (max-width: 768px) {
   nav ul {
-    background-color: rgb(247, 245, 245);
+    background-color: orange;
     width: 100%;
     gap: 10px;
     float: none;

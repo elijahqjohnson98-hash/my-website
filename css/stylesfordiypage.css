@@ -17,8 +17,8 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #0a0a0a;
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: Creepster;
+  font-size: 19px;
   font-weight: 500;
   padding: 8px 12px;
   transition: all 0.3s ease;
@@ -73,4 +73,16 @@ main {
     flex-direction: column;
     align-items: center;
   }
+}
+
+img {
+  border: 5px solid rgb(236, 8, 27);
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 20px;
 }

@@ -123,10 +123,11 @@ nav ul {
 }
 
 nav a {
+  font-size: auto;
   text-decoration: none; 
   color: #0a0a0a;        
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: Creepster;
+  font-size: 19px;
   font-weight: 500;
   padding: 8px 12px;     
   transition: all 0.3s ease; 
@@ -143,7 +144,7 @@ nav a[aria-current="page"] {
   border-bottom: 2px solid #0066cc; 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: ) {
   nav ul {
     flex-direction: column;
     width: 100%;
