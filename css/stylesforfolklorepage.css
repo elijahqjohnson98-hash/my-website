@@ -1,7 +1,7 @@
 body {
   font-family: Creepster;
   background-color: rgb(253, 212, 4);
-  
+
 
 }
 
@@ -19,7 +19,7 @@ div {
   width: 100%;
   justify-items: start;
   font-family: Creepster;
-  
+
 
 }
 
@@ -81,8 +81,9 @@ main {
   border: 5px solid rgb(236, 8, 27);
 
 }
+
 #culture {
-color: red;
+  color: red;
   text-decoration: none;
   text-align: center;
   font-family: Creepster;
@@ -113,9 +114,9 @@ nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  display: flex; 
+  display: flex;
   gap: 20px;
-  width: 450px;     
+  width: 450px;
 }
 
 nav a {

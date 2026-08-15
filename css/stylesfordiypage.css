@@ -9,9 +9,9 @@ nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  display: flex; 
+  display: flex;
   gap: 20px;
-  width: 450px;     
+  width: 450px;
 }
 
 nav a {

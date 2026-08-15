@@ -1,7 +1,7 @@
 body {
   background-color: orange;
   font-family: Creepster;
-} 
+}
 
 h1 {
   color: rgb(3, 3, 5);
@@ -75,7 +75,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-  font-style:italic;
+  font-style: italic;
   background-color: rgb(252, 252, 252);
   width: 20%;
   margin-left: 39%
@@ -86,7 +86,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-  font-style:italic;
+  font-style: italic;
   background-color: rgb(249, 124, 0);
   width: 20%;
   margin-left: 39%
@@ -97,7 +97,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
-  font-style:italic;
+  font-style: italic;
   background-color: rgb(252, 240, 6);
   width: 20%;
   margin-left: 39%
@@ -117,34 +117,34 @@ nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  display: flex; 
+  display: flex;
   gap: 20px;
-  width: 450px;     
+  width: 450px;
 }
 
 nav a {
   font-size: auto;
-  text-decoration: none; 
-  color: #0a0a0a;        
+  text-decoration: none;
+  color: #0a0a0a;
   font-family: Creepster;
   font-size: 19px;
   font-weight: 500;
-  padding: 8px 12px;     
-  transition: all 0.3s ease; 
+  padding: 8px 12px;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
-  color: #d80a0a;          
-  background-color: #f0f7ff; 
-  border-radius: 4px;        
+  color: #d80a0a;
+  background-color: #f0f7ff;
+  border-radius: 4px;
 }
 
 nav a[aria-current="page"] {
   color: #0066cc;
-  border-bottom: 2px solid #0066cc; 
+  border-bottom: 2px solid #0066cc;
 }
 
-@media screen and (max-width: ) {
+@media screen and (max-width:) {
   nav ul {
     flex-direction: column;
     width: 100%;
