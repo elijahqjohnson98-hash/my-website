@@ -17,6 +17,8 @@ Stuff that still needs to be implemented/fixed:
 1. More media quieries on specific page demensions
 2. Border colors around images that don't have them
 3. More content on some pages (DIY page, folklore page)
-4. Maybe more sound effects on pages that don't have them
+4. More sound effects on pages that don't have them
 5. Better file organization
-6. 
+6. Unique backgrounds for each page
+7. Different layouts for each page to make them more interesting
+8. Commented out lines should be removed before final project submission

@@ -4,8 +4,9 @@ body {
 }
 
 h1 {
-  color: rgb(3, 3, 5);
+  color: orangered;
   text-align: center;
+  font-size: 50px;
 }
 
 
@@ -23,13 +24,13 @@ img {
 }
 
 a {
-  color: rgb(10, 10, 12);
+  color: blue;
   text-decoration: none;
   text-align: center;
 }
 
 li {
-  color: rgb(1, 15, 24);
+  color: black;
   text-decoration: none;
   list-style-type: none;
   font-style: oblique;
@@ -39,10 +40,11 @@ li {
 
 
 .first_text {
-  color: rgb(0, 0, 6);
+  color: orange;
   text-decoration: none;
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif Gothic, ;
+  font-size: 30px;
 }
 
 * {
@@ -144,7 +146,7 @@ nav a[aria-current="page"] {
   border-bottom: 2px solid #0066cc;
 }
 
-@media screen and (max-width:) {
+@media screen and (max-width:1000) {
   nav ul {
     flex-direction: column;
     width: 100%;

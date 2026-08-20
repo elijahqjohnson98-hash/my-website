@@ -38,6 +38,7 @@ img {
 p {
   color: yellow;
   text-align: center;
+  font-size: 25px;
 
 }
 
@@ -126,4 +127,5 @@ div#costumes {
 
 a {
   color: yellow;
+  font-size: 25px;
 }
